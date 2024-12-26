@@ -1,0 +1,24 @@
+
+.slideshow {
+  position: relative;
+  animation: fadeInFromLeft 1.5s ease;
+}
+
+.image__container img {
+  animation: fadeInSlideshow 1s ease-in-out;
+  height: 80vh;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  background-position: center;
+  background-size: cover;
+}
+
+@keyframes fadeInSlideshow {
+  from {
+      opacity: 0.5;
+  }
+  to {
+      opacity: 1;
+  }
+}
